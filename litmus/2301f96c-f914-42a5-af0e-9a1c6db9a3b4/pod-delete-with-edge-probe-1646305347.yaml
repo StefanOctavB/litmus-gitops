@@ -33,9 +33,9 @@ spec:
     - - arguments: {}
         name: pod-delete
         template: pod-delete
-    - - arguments: {}
-        name: revert-chaos
-        template: revert-chaos
+    #- - arguments: {}
+    #    name: revert-chaos
+    #    template: revert-chaos
   - container:
       args:
       - kubectl apply -f /tmp/pod-delete.yaml -n {{workflow.parameters.adminModeNamespace}}
