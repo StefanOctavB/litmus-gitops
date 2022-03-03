@@ -33,7 +33,7 @@ spec:
     - - arguments: {}
         name: pod-delete
         template: pod-delete
-    - - arguments: {}
+    #- - arguments: {}
         name: revert-chaos
         template: revert-chaos
   - container:
